@@ -12,7 +12,7 @@ public class Main {
 	public static String prefix = "*";
 	// Main method
 	public static void main(String[] args) throws LoginException {
-		jda = JDABuilder.createDefault("NzUxMzQ2NzgxODMyNjA5ODMz.X1HwOA.p7JjM-OWXDqNo2Mx8iGQmvXNV7I").build();
+		jda = JDABuilder.createDefault("token").build();
 		jda.getPresence().setStatus(OnlineStatus.IDLE);
 		jda.getPresence().setActivity(Activity.watching("Spice & Wolf"));
 		
